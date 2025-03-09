@@ -59,7 +59,10 @@ El **Sistema de Gestión de Biblioteca** es una aplicación diseñada para optim
     ```bash
     composer install
     ```
-
+4. Crear conexion al a base de datos 
+   - crear un file (arhivo) .env donde iran las bases para la conexion a la BD
+   - Guiarte del .env.example
+     
 ## Configuración de la Base de Datos
 1. Asegurarse de que PostgreSQL esté en ejecución.
 2. Crear la base de datos si no está creada, ejecutando el script SQL proporcionado.
