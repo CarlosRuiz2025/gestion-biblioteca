@@ -53,6 +53,13 @@ El **Sistema de Gestión de Biblioteca** es una aplicación diseñada para optim
    - Seleccionar "gestion-biblioteca".
    - Finalizar.
 
+3. Instalar dependencia del composer 
+   - Abre la terminal cmd o powershel directo desde el visual code 
+   - Instala la dependencia: 
+    ```bash
+    composer install
+    ```
+
 ## Configuración de la Base de Datos
 1. Asegurarse de que PostgreSQL esté en ejecución.
 2. Crear la base de datos si no está creada, ejecutando el script SQL proporcionado.
