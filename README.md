@@ -1,9 +1,17 @@
+
 # Sistema de Gestión de Biblioteca
 
-![Imagen de la Base de Datos](URL_DE_LA_IMAGEN)
+![Imagen de la Base de Datos](https://imgur.com/a/PRWnvFX)
 
 ## Descripción
-El **Sistema de Gestión de Biblioteca** tiene como objetivo automatizar la administración de una biblioteca, permitiendo la gestión eficiente de libros, usuarios y operaciones de préstamo y devolución. Este sistema está diseñado para bibliotecas académicas, públicas y privadas, facilitando el acceso a información y optimizando los procesos bibliotecarios.
+El **Sistema de Gestión de Biblioteca** es una aplicación diseñada para optimizar la administración de bibliotecas académicas, públicas y privadas. Su objetivo principal es facilitar la gestión eficiente de libros, usuarios y procesos de préstamo y devolución, brindando herramientas que agilizan las operaciones bibliotecarias, mejoran el acceso a la información y garantizan un control adecuado del inventario de libros.
+
+## Las principales características del sistema incluyen:
+- Registro y actualización de libros con información detallada.
+- Administración de usuarios y control de historial de préstamos.
+- Gestión de préstamos y devoluciones con fechas y notificaciones.
+- Búsqueda avanzada de libros por título, autor o género.
+- Interfaz intuitiva y fácil de usar para bibliotecarios y usuarios.
 
 ## Curso
 **Taller de Programación Web**
@@ -16,8 +24,8 @@ El **Sistema de Gestión de Biblioteca** tiene como objetivo automatizar la admi
 
 ## Integrantes
 - [Carlos Andrés Ruiz Miranda]
-- [Juan Dennis Herrera Lurita]
 - [Gian Pier Alessandro Tovar Inuma]
+- [Juan Dennis Herrera Lurita]
 
 
 ## Tecnologías Utilizadas
@@ -30,7 +38,8 @@ El **Sistema de Gestión de Biblioteca** tiene como objetivo automatizar la admi
 | PostgreSQL  | Sistema de gestión de bases de datos relacional. |
 
 ## Librerías Utilizadas
-Bootstrap: Enlace a su web oficial
+- Bootstrap: [Enlace a su web oficial](https://getbootstrap.com/)
+
 
 ## Prueba de la Aplicación
 1. Clonar el repositorio:  
@@ -55,4 +64,5 @@ php artisan serve
 ```
 
 ---
-***Proyecto desarrollado con entusiasmo y dedicación. 🚀📚***
+***Proyecto en desarrollo  con entusiasmo y dedicación. 🚀📚***
+
