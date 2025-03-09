@@ -1,12 +1,93 @@
-@import 'tailwindcss';
+/* Estilos generales */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source "../**/*.blade.php";
-@source "../**/*.js";
-@source "../**/*.vue";
+main {
+    flex: 1;
+    padding: 20px;
+}
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+/* Barra de navegación */
+.navbar {
+    background-color: #111; /* Fondo oscuro */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.nav-link {
+    transition: color 0.3s ease, transform 0.3s ease;
+    color: #fff !important; /* Texto blanco */
+}
+
+.nav-link:hover {
+    color: #6a11cb !important; /* Morado al hacer hover */
+    transform: translateY(-3px);
+}
+
+/* Secciones */
+section {
+    background-color: #1a1a1a; /* Fondo gris oscuro */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    border: 1px solid #333; /* Borde sutil */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    color: #6a11cb; /* Morado para títulos */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra en el texto */
+}
+
+section p {
+    color: #e0e0e0; /* Texto gris claro */
+}
+
+/* Botones */
+.btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #6a11cb; /* Morado */
+    border: none;
+    color: #fff; /* Texto blanco */
+    font-weight: bold;
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(106, 17, 203, 0.5); /* Sombra morada */
+    background-color: #2575fc; /* Azul al hacer hover */
+}
+
+/* Pie de página */
+footer {
+    background-color: #111; /* Fondo oscuro */
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-out;
 }
