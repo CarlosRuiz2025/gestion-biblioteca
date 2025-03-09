@@ -30,7 +30,7 @@ El **Sistema de Gestión de Biblioteca** tiene como objetivo automatizar la admi
 | PostgreSQL  | Sistema de gestión de bases de datos relacional. |
 
 ## Librerías Utilizadas
-*(Por completar)*
+Bootstrap: Enlace a su web oficial
 
 ## Prueba de la Aplicación
 1. Clonar el repositorio:  
