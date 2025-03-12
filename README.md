@@ -38,8 +38,7 @@ El Sistema de Gestión para una Biblioteca  es una aplicación diseñada para op
 | PostgreSQL  | Sistema de gestión de bases de datos relacional. |
 
 ## Librerías Utilizadas
-- Tailwind : [Enlace a su web oficial]((https://tailwindcss.com/))
-
+- [Tailwind CSS - Página Oficial](https://tailwindcss.com)
 
 ## Prueba de la Aplicación
 1. Clonar el repositorio:  
